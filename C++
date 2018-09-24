@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    cout << "Introdusca el valor del Radio" << endl;
+    double rRadio;
+    
+    cin >> rRadio;
+    cout << "Introdusca el valor del angulo de la cuña" << endl;
+    double rCuna;
+    
+    cin >> rCuna;
+    double rVolumen;
+    
+    rVolumen = (double) 4 / 3 * (3.1416 * pow(rRadio, 3) / 360) * rCuna;
+    cout << "El Volumen de la Cuña Esferica es: ";
+    cout << rVolumen << endl;
+    return 0;
+}

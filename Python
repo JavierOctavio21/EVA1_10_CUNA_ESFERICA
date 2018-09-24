@@ -1,0 +1,7 @@
+print("Introdusca el valor del Radio")
+rRadio = float(input())
+print("Introdusca el valor del angulo de la cuña")
+rCuña = float(input())
+rVolumen = float(4) / 3 * (3.1416 * rRadio ** 3 / 360) * rCuña
+print("El Volumen de la Cuña Esferica es: ", end='', flush=True)
+print(rVolumen)
